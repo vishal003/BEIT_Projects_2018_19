@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_presets">Presets</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_profile">Profile</string>
+    <string name="app_name">HOME AUTOMATION</string>
+    <string name="hello_blank_fragment">Hello Fragments</string>
+    <string name="Theme">Theme</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+
+</resources>

@@ -1,0 +1,48 @@
+\chapter*{Appendix}
+\addcontentsline{toc}{chapter}{Appendices}
+Detailed information, lengthy derivations, raw experimental observations etc. are to be
+presented in the separate appendices, which shall be numbered in Roman Capitals (e.g.
+“Appendix I”). Since reference can be drawn to published/unpublished literature in the
+appendices these should precede the “Literature Cited” section.\\
+
+%section*{Appendices}
+\section*{Appendix-A: NS2 Download and Installation}
+\addcontentsline{toc}{section}{Appendix-A}
+1. Download ns-allinone-2.35.tar.gz from http://sourceforge.net/projects/nsnam/\\
+\\
+2. Place ns-allinone-2.35.tar in your desired directory; like /home/vishal.\\
+\\
+3. Go to terminal and do as following commands\\
+\textbf{sudo apt-get update}\\
+\textbf{sudo apt-get install automake autoconf libxmu-dev build-essential}\\
+\\
+4. Extract ns-allinone-2.35 and after extracting go to folder ns-allinone-2.35 from Terminal as\\
+\textbf{\$cd ns-allinone-2.35}\\
+\textbf{\$./install}\\
+\\
+5. Path Setting\\
+\textbf{\$ gedit .bashrc}\\
+\\
+This command will open an existing file in editor. Just put the following path which is given bellow. [Remember that our ns-allinone path is /home/vishal. we will change this path according to our ns-allinone folder's path]\\
+\\
+export PATH=\$PATH:/home/vishal/ns-allinone-2.35/bin:/home/vishal/ns-allinone-2.35/tcl8.5.10/\\
+unix/home/vishal/ns-allinone-2.35/tk8.5.10/unix\\
+\\
+export LD\_LIBRARY\_PATH=\$LD\_LIBRARY\_PATH:/home/vishal/ns-allinone- 2.35/otcl-1.14:/home/\\
+vishal/ns-allinone-2.35/lib\\
+\\
+export TCL\_LIRARY\_PATH=\$TCL\_LIBRARY\_PATH:/home/vishal/ns-allinone-2.35/tcl8.5.10/library\\
+\\
+After this save and exit.\\
+\\
+6. Now type in terminal to check that, is all command we entered in .bashrc is correct or not? And To take the effect immediately\\
+\textbf{\$source .bashrc}\\
+\\
+7. Then perform the validation test using this command.\\
+\textbf{\$ ./validate}\\
+\\
+8. Run ns2 using this command\\
+\textbf{\$ns}\\
+\\
+We will get \% prompt in our terminal. Now ns2 has been installed.\\
+

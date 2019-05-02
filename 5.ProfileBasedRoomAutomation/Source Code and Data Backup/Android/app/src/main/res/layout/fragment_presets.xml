@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:textColor="?attr/textColor"
+    android:weightSum="10"
+    tools:context=".PresetsFragment"
+    android:background="@drawable/whitepattern">
+
+    <TextView
+        android:id="@+id/dayView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="17dp"
+        android:text="DAY"
+        android:textColor="?attr/textColor"
+        app:layout_constraintBottom_toTopOf="@+id/daySpinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/daySpinner"
+        android:textColor="?attr/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dayView" />
+
+    <TextView
+        android:id="@+id/timeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/textColor"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="17dp"
+        android:text="TIME"
+        app:layout_constraintBottom_toTopOf="@+id/timeSpinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/daySpinner"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <Spinner
+        android:id="@+id/timeSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/textColor"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeView" />
+
+    <TextView
+        android:id="@+id/light1view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="70dp"
+        android:text="LIGHT 1"
+        app:layout_constraintEnd_toStartOf="@+id/light2View"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeSpinner" />
+
+    <TextView
+        android:id="@+id/light2View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="90dp"
+        android:text="LIGHT 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/light1view"
+        app:layout_constraintTop_toBottomOf="@+id/timeSpinner" />
+
+    <Spinner
+        android:id="@+id/light1Spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:textColor="?attr/textColor"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="82dp"
+        app:layout_constraintEnd_toStartOf="@+id/light2Spinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/light1view" />
+
+    <Spinner
+        android:id="@+id/light2Spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="24dp"
+        android:textColor="?attr/textColor"
+        app:layout_constraintBottom_toTopOf="@+id/light4View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/light1Spinner"
+        app:layout_constraintTop_toBottomOf="@+id/light2View" />
+
+    <TextView
+        android:id="@+id/light3View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:textColor="?attr/textColor"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="17dp"
+        android:text="LIGHT 3"
+        app:layout_constraintBottom_toTopOf="@+id/light3Spinner"
+        app:layout_constraintEnd_toStartOf="@+id/light4View"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/light1Spinner" />
+
+    <TextView
+        android:id="@+id/light4View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:textColor="?attr/textColor"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="90dp"
+        android:text="LIGHT 4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/light3View"
+        app:layout_constraintTop_toBottomOf="@+id/light2Spinner" />
+
+    <Spinner
+        android:id="@+id/light3Spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="70dp"
+        app:layout_constraintEnd_toStartOf="@+id/light4Spinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/light3View" />
+
+    <Spinner
+        android:id="@+id/light4Spinner"
+        android:layout_width="wrap_content"
+        style="mySpinnerItemStyle"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:textColor="?attr/textColor"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/light3Spinner"
+        app:layout_constraintTop_toBottomOf="@+id/light4View" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="250dp"
+        android:textColor="?attr/textColor"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="74dp"
+        android:text="SUBMIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeSpinner" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,73 @@
+body{
+	background-color:#DCDCDC
+}
+ 
+ h1,h2,h3,h4,h5,h6{
+	 font-family:times new roman; 
+ }
+ .content_box{
+		background-color:#f4f4f4;
+		border:1px solid #aaa;
+		border-radius:10px;
+		margin-bottom:4%;
+		margin-top:6%;
+		padding:15px;	
+	}
+.btn1{
+	background-color:#59B210;
+	text-decoration:none;
+	text-align:center;
+	color:white;
+	margin-bottom:3%;
+	padding:1%;
+	border:solid 1px #59B210;
+	border-radius:5px;
+}
+.login-form{
+	margin-top:10%;	
+	padding:3%;
+	background-color:white;
+	font-family:times new roman; 
+	border:1px solid #59B210;
+	border-radius:10px;
+}
+
+.button{
+	
+	background-color:#FF5722;
+}
+.navbar-default {
+   background:#59B210;
+	padding:3px;
+	width:100%;
+	height:10%;
+}
+
+.dash-heading{
+	background-color:#333;
+	text-align:center;
+	color:White;
+	border:1px solid #59B210;
+	border-radius:5px;
+}
+.caption_heading{
+	font-family:times new roman;
+	font-size:20px;
+	color:#FF5722;
+}
+.caption{
+	margin-bottom:20px;
+	border:solid 0.5px #aaa;
+	border-radius:5px;
+	padding:5px;
+}
+
+.dash-box-total{
+	border:1px solid #59B210;
+	width:100%;
+	}
+.fa-dash-icon{padding:10px 15px 10px 20px;float:left;}
+.dash-table tr td{font-size:20px;font-weight:600;}
+.dash-table .dash-td-bg .td1{background:#333;color:white;}
+.dash-table .dash-td-bg .td2{background:#333;color:white;}
+.dash-table .dash-td-bg  td a{color:#fff;text-decoration:none;}

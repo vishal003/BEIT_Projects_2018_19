@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/whitepattern"
+    android:orientation="vertical"
+    android:textColor="?attr/textColor"
+    android:weightSum="10"
+    tools:context=".HomeFragment">
+
+
+
+
+    <Switch
+        android:id="@+id/Light1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="50dp"
+        android:text="LIGHT1"
+        android:textColor="?attr/textColor"
+        app:layout_constraintBottom_toTopOf="@+id/Light2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Switch>
+
+
+    <Switch
+
+        android:id="@+id/Light2"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="50dp"
+        android:text="LIGHT 2"
+        android:textColor="?attr/textColor"
+        app:layout_constraintBottom_toTopOf="@+id/Light3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Light1">
+
+    </Switch>
+
+
+    <Switch
+        android:id="@+id/Light3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="50dp"
+        android:text="LIGHT 3"
+        android:textColor="?attr/textColor"
+        app:layout_constraintBottom_toTopOf="@+id/Light4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Light2">
+
+    </Switch>
+
+
+    <Switch
+        android:id="@+id/Light4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="200dp"
+        android:text="LIGHT 4"
+        android:textColor="?attr/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Light3">
+
+    </Switch>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,56 @@
+% All Rights Reserved @Prof.Vishal Badgujar
+% Information Technology Department 
+% A.P.Shah Institute of Technology, Thane
+\documentclass[12pt,oneside,a4paper]{report}
+%\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+%\pagenumbering{roman}
+%\floatstyle{boxed}
+%\restylefloat{figure}
+%\topmargin 18mm
+\textwidth 6.5in
+%\headheight -8pt
+%\headsep -12pt
+\textheight 9.5in
+%\footheight 18mm 
+%\footskip 18mm
+\bibliographystyle{plain}
+\begin{document}
+\input{title}
+\input{approvalCertificate}
+\input{Certificate}
+\input{Declaration}
+%\input{certificate}
+%\input{certificatea}
+%\input{me_title.tex}
+\input{abstract}
+\pagenumbering{roman}
+%\pagenumbering{}
+\tableofcontents
+\pagebreak
+\listoffigures
+\listoftables
+\newpage
+\input{Abbreviations.tex}
+\pagebreak
+\pagenumbering{arabic}
+\input{Introduction.tex}
+\input{Review.tex}
+\input{chapter3.tex}
+\input{chapter4.tex}
+\input{Result.tex}
+\input{Conclusion.tex}
+\input{bibliography.tex}
+\input{Appendices.tex}
+%\includepdf[pages=-]{trm.pdf}
+\input{Acknowledgement.tex}
+\input{Publication.tex}
+\end{document}

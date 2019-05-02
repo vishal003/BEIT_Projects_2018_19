@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Dark/Night   Theme -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#00A5C5</item>
+        <item name="colorPrimaryDark">#006980</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#000000</item>
+        <item name="cardBackground">#000000</item>
+        <item name="textColor">#ffffff</item>
+        <item name="tintColor">#ffffff</item>
+        <item name="buttonColor">#2196F3</item>
+        <item name="iconColor">#2196F3</item>
+    </style>
+
+    <!-- Light/Day Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">#00A5C5</item>
+        <item name="colorPrimaryDark">#006980</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#ffffff</item>
+        <item name="cardBackground">#ffffff</item>
+        <item name="textColor">#000000</item>
+        <item name="tintColor">#ffffff</item>
+        <item name="buttonColor">#9e9e9e</item>
+        <item name="iconColor">#2196F3</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="mySpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">?attr/textColor</item>
+    </style>
+
+</resources>

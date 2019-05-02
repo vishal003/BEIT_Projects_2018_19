@@ -1,0 +1,20 @@
+1. Iot Based Smart Irrigation System
+2. Group members:
+
+Ashwini Salunke
+Yatin Kalra
+Kavita Patel
+Deepak Sharma
+
+3. Description:
+
+The irrigation system on automation uses optimal resources to improve the efficiency of the irrigation.
+This system can be implemented in places that face water shortage to improve agricultural
+sustainability. In this project a prototype includes sensing element node and data storage on cloud. The
+sensing element node is deployed on the field for sensing the soil parameters such as temperature,
+moisture, luminosity and humidity. According to the soil parameters the automation is achieved by
+turning the motor on/off based on the set threshold value embedded in the code. All the data is stored
+on cloud, which represent the data in graphical chart, from that it can be checked how much water was
+consumed by plant and how many times the pump was turned on. Additionally, same data can be seen
+on the website.
+

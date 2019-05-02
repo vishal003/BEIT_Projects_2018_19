@@ -1,0 +1,22 @@
+.my-body-background-color{
+	background-color: #EEEEEE;
+}
+.my-center-container{  /*html,body{height: 100%;}  <div =my-center-container><div> ... </div></div>*/
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*nav bar*/
+.my-navbar li a:link {
+	color: #9da4cf;
+}
+.my-navbar li:hover{
+	background-color: #EEEEEE;
+}
+.my-navbar li a:visited {
+    color: #9da4cf;
+}
+.my-navbar li a:active{
+	color: #9da4cf;
+}
